@@ -1,0 +1,28 @@
+[global]
+    font = JetBrains Mono 10
+    transparency = 10
+    history_length = 20
+    shrink = false
+    frame_width = 0         # remove hard border
+    geometry = "300x50-20+20"  # width x height - offset x - offset y
+    # If your Dunst supports radius (patch required)
+    corner_radius = 10
+
+[urgency_low]
+    timeout = 3000
+    background = "#222222"
+    foreground = "#dddddd"
+    frame_color = "#444444"
+
+[urgency_normal]
+    timeout = 5000
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#444444"
+
+[urgency_critical]
+    timeout = 0
+    background = "#fb4934"
+    foreground = "#ffffff"
+    frame_color = "#cc241d"
+
